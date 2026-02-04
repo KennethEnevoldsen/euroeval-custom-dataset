@@ -1,6 +1,7 @@
 # Running Euroeval on a custom dataset
 
-This repo reconstructs a simple classification dataset.
+This repo reconstructs a simple classification dataset. It follows the example in the [docs](https://euroeval.com/python-package/#benchmarking-custom-datasets),
+but expands a few of the cases that was underspecified.
 
 ## Classification using a csv and the CLI
 
