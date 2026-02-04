@@ -21,7 +21,6 @@ uv run euroeval --dataset my-dataset \
   --num-iterations 1
 ```
 
-
 ## Classification using a csv and a Script
 
 ```bash
