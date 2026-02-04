@@ -1,13 +1,15 @@
 # Running Euroeval on a custom dataset
 
-Below we check a variety of cases for evaluation.
+This repo reconstructs a simple classification dataset.
 
 ## Classification using a csv and the CLI
 
 ```bash
 # using models - untested
-uv run euroeval --dataset my-dataset --model openai-community/gpt2
-uv run euroeval --dataset my-dataset --model PleIAs/Monad
+uv run euroeval --dataset my-dataset --model openai-community/gpt2 \
+  --verbose \
+  --zero-shot \
+  --num-iterations 1
 ```
 
 ```bash
@@ -23,6 +25,7 @@ uv run euroeval --dataset my-dataset \
 
 ## Classification using a csv and a Script
 
+You could also run this directly from the script using
 ```bash
 uv run classification_from_script.py
 ```
