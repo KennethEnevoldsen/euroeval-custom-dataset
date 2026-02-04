@@ -3,5 +3,9 @@ name = "euroeval-custom-dataset"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = ["euroeval[all]>=16.11.0"]
+requires-python = ">=3.12"
+dependencies = [
+    "euroeval[generative]>=16.11.0",
+    "vllm-metal @ https://github.com/vllm-project/vllm-metal/releases/latest/download/vllm_metal-0.1.0-cp312-cp312-macosx_11_0_arm64.whl",
+    "transformers>=4.45,<5",
+]

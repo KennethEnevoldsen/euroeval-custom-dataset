@@ -6,6 +6,7 @@ Below we check a variety of cases for evaluation.
 
 ```bash
 uv run euroeval --dataset my-dataset --model openai-community/gpt2
+uv run euroeval --dataset my-dataset --model PleIAs/Monad
 ```
 
 ## Classification using a csv and a Script
